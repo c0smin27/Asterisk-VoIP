@@ -44,13 +44,15 @@ Defines tones and frequencies specific to a region.
 ## File Structure
 
 <pre>
-src/
-├── extensions.conf      # call logic and routing
-├── sip.conf             # configuration of SIP users
-├── iax.conf             # configuration of IAX2 users
-├── musiconhold.conf     # music on hold settings
-├── indications.conf     # regional tone configuration
-├── custom.wav
+asterisk/
+├── extensions.conf          # call logic and routing
+├── sip.conf                 # configuration of SIP users
+├── iax.conf                 # configuration of IAX2 users
+├── musiconhold.conf         # music on hold settings
+├── indications.conf         # regional tone configuration
+└── moh/
+    └── music/
+        └── custom.wav       # audio file used for MusicOnHold
 </pre>
 
 ## Disclaimer
