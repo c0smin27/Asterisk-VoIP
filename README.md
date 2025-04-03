@@ -19,7 +19,7 @@ Defines SIP users and their parameters:
 - Supported codecs: `ulaw`, `alaw`, `gsm`, `ilbc`, `h264`, `h263`
 
 ### 2. `iax.conf`
-Defines IAX users such as `2000`, `3143`, `4143`, each with its own context and password authentication.
+Defines IAX users such as `2000`, `3143`, `4143`, each with its own context and password authentication
 
 ### 3. `extensions.conf`
 Main dialplan configuration file:
@@ -32,7 +32,7 @@ Main dialplan configuration file:
 - To ensure music is played correctly, you need to include the audio file `custom.wav` in that directory
 
 ### 5. `indications.conf`
-Defines tones and frequencies specific to a region.
+Defines tones and frequencies specific to a region
 
 ## Features
 
