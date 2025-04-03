@@ -28,11 +28,11 @@ Main dialplan configuration file:
 - `sipfunc` and `iaxfunc` contexts – provide audio playback, test tones, and functionalities like `Echo`, `SayDigits`, `SayNumber`
 
 ### 4. `musiconhold.conf`
-- Configures music on hold, using files located in `/var/lib/asterisk/moh/music`.
+- Configures music on hold, using files located in `/var/lib/asterisk/moh/music`
 - To ensure music is played correctly, you need to include the audio file `custom.wav` in that directory
 
 ### 5. `indications.conf`
-Defines tones and frequencies specific to a region (e.g., United States).
+Defines tones and frequencies specific to a region.
 
 ## Features
 
@@ -44,12 +44,13 @@ Defines tones and frequencies specific to a region (e.g., United States).
 ## File Structure
 
 <pre>
-asterisk-voip-project/
+src/
 ├── extensions.conf      # call logic and routing
 ├── sip.conf             # configuration of SIP users
 ├── iax.conf             # configuration of IAX2 users
 ├── musiconhold.conf     # music on hold settings
 ├── indications.conf     # regional tone configuration
+├── custom.wav
 </pre>
 
 ## Disclaimer
