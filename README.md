@@ -1,4 +1,4 @@
-# Asterisk VoIP Lab Project
+# Asterisk VoIP Project
 
 ## General Description
 
@@ -54,6 +54,24 @@ asterisk/
     └── music/
         └── custom.wav       # audio file used for MusicOnHold
 </pre>
+
+## Command Reference
+
+### SIP Phones
+- `1143`, `2143`
+
+### IAX Phones
+- `3143`, `4143`
+
+### [sipfunc] Context
+- `143` – triggers the `sipfunc` context logic
+
+### [iaxfunc] Context
+- `11` – `SayAlpha()`  
+- `22` – `SayDigits()`  
+- `33` – `SayNumber()`  
+- `44` – `SayPhonetic()`  
+- `55` – `SayUnixTime()`
 
 ## Disclaimer
 
