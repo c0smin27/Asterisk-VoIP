@@ -39,3 +39,18 @@ Defines tones and frequencies specific to a region (e.g., United States).
 - Testing features (echo test, digit/letter playback, time announcement)
 - Customizable music on hold
 - Agent login and call queue management
+
+## File Structure
+
+<pre>
+asterisk-voip-project/
+├── extensions.conf      # call logic and routing
+├── sip.conf             # configuration of SIP users
+├── iax.conf             # configuration of IAX2 users
+├── musiconhold.conf     # music on hold settings
+├── indications.conf     # regional tone configuration
+</pre>
+
+## Disclaimer
+
+This project was created as part of an academic assignment. Feel free to use it for learning purposes, but please do not submit it as your own work in educational settings.
